@@ -2,13 +2,13 @@ local G2L = {};
 
 _G.Code = ""
 
--- StarterGui.Lucious
+-- StarterGui.ASADA
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["Name"] = [[ASADA]];
 G2L["1"]["ResetOnSpawn"] = false
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
--- StarterGui.Lucious.Frame
+-- StarterGui.ASADA.Frame
 G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["BorderSizePixel"] = 0;
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -16,7 +16,7 @@ G2L["2"]["Size"] = UDim2.new(0, 425, 0, 253);
 G2L["2"]["Position"] = UDim2.new(0.02067, 0, 0.17804, 0);
 G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 
--- StarterGui.Lucious.Frame.TopBar
+-- StarterGui.ASADA.Frame.TopBar
 G2L["3"] = Instance.new("Frame", G2L["2"]);
 G2L["3"]["BorderSizePixel"] = 0;
 G2L["3"]["BackgroundColor3"] = Color3.fromRGB(38, 36, 39);
@@ -25,7 +25,7 @@ G2L["3"]["Position"] = UDim2.new(0, 0, -0.00378, 0);
 G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["3"]["Name"] = [[TopBar]];
 
--- StarterGui.Lucious.Frame.TopBar.Name
+-- StarterGui.ASADA.Frame.TopBar.Name
 G2L["4"] = Instance.new("TextLabel", G2L["3"]);
 G2L["4"]["BorderSizePixel"] = 0;
 G2L["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -39,7 +39,7 @@ G2L["4"]["Text"] = [[Lucious]];
 G2L["4"]["Name"] = [[Name]];
 G2L["4"]["Position"] = UDim2.new(0, 0, 0, 0);
 
--- StarterGui.Lucious.Frame.TopBar.X
+-- StarterGui.ASADA.Frame.TopBar.X
 G2L["5"] = Instance.new("TextButton", G2L["3"]);
 G2L["5"]["BorderSizePixel"] = 0;
 G2L["5"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
@@ -54,7 +54,7 @@ G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["5"]["Text"] = [[X]];
 G2L["5"]["Position"] = UDim2.new(0.94353, 0, 0, 0);
 
--- StarterGui.Lucious.Frame.Buttons
+-- StarterGui.ASADA.Frame.Buttons
 G2L["6"] = Instance.new("Frame", G2L["2"]);
 G2L["6"]["BorderSizePixel"] = 0;
 G2L["6"]["BackgroundColor3"] = Color3.fromRGB(75, 75, 75);
@@ -63,7 +63,7 @@ G2L["6"]["Position"] = UDim2.new(0.35765, 0, 0.58103, 0);
 G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["6"]["Name"] = [[Buttons]];
 
--- StarterGui.Lucious.Frame.Buttons.CopyR
+-- StarterGui.ASADA.Frame.Buttons.CopyR
 G2L["7"] = Instance.new("TextButton", G2L["6"]);
 G2L["7"]["TextSize"] = 14;
 G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -75,7 +75,7 @@ G2L["7"]["BorderColor3"] = Color3.fromRGB(139, 139, 139);
 G2L["7"]["Text"] = [[Copy Remote]];
 G2L["7"]["Position"] = UDim2.new(0.32967, 0, 0.08491, 0);
 
--- StarterGui.Lucious.Frame.Buttons.CopyR.Border
+-- StarterGui.ASADA.Frame.Buttons.CopyR.Border
 G2L["8"] = Instance.new("TextLabel", G2L["7"]);
 G2L["8"]["BorderSizePixel"] = 0;
 G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -87,7 +87,7 @@ G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["8"]["Text"] = [[]];
 G2L["8"]["Name"] = [[Border]];
 
--- StarterGui.Lucious.Frame.Buttons.CopyC
+-- StarterGui.ASADA.Frame.Buttons.CopyC
 G2L["9"] = Instance.new("TextButton", G2L["6"]);
 G2L["9"]["TextSize"] = 14;
 G2L["9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -111,7 +111,7 @@ G2L["9"].MouseButton1Click:Connect(function()
 	end
 end)
 
--- StarterGui.Lucious.Frame.Buttons.CopyC.Border
+-- StarterGui.ASADA.Frame.Buttons.CopyC.Border
 G2L["a"] = Instance.new("TextLabel", G2L["9"]);
 G2L["a"]["BorderSizePixel"] = 0;
 G2L["a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -123,7 +123,7 @@ G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a"]["Text"] = [[]];
 G2L["a"]["Name"] = [[Border]];
 
--- StarterGui.Lucious.Frame.Buttons.Run
+-- StarterGui.ASADA.Frame.Buttons.Run
 G2L["b"] = Instance.new("TextButton", G2L["6"]);
 G2L["b"]["TextSize"] = 14;
 G2L["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -135,7 +135,7 @@ G2L["b"]["BorderColor3"] = Color3.fromRGB(139, 139, 139);
 G2L["b"]["Text"] = [[Run Code]];
 G2L["b"]["Position"] = UDim2.new(0.7033, 0, 0.08491, 0);
 
--- StarterGui.Lucious.Frame.Buttons.Run.Border
+-- StarterGui.ASADA.Frame.Buttons.Run.Border
 G2L["c"] = Instance.new("TextLabel", G2L["b"]);
 G2L["c"]["BorderSizePixel"] = 0;
 G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -169,7 +169,7 @@ G2L["e2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["e2"]["Text"] = [[]];
 G2L["e2"]["Name"] = [[Border]];
 
--- StarterGui.Lucious.Frame.Remotes
+-- StarterGui.ASADA.Frame.Remotes
 G2L["d"] = Instance.new("ScrollingFrame", G2L["2"]);
 G2L["d"]["Active"] = true;
 G2L["d"]["BorderSizePixel"] = 0;
@@ -184,7 +184,7 @@ G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["d"]["ScrollBarThickness"] = 0;
 G2L["d"]["LayoutOrder"] = 1;
 
--- StarterGui.Lucious.Frame.Remotes.RemoteExample
+-- StarterGui.ASADA.Frame.Remotes.RemoteExample
 G2L["e"] = Instance.new("TextButton", G2L["d"]);
 G2L["e"]["BorderSizePixel"] = 3;
 G2L["e"]["TextSize"] = 14;
@@ -197,7 +197,7 @@ G2L["e"]["Name"] = [[RemoteExample]];
 G2L["e"]["BorderColor3"] = Color3.fromRGB(93, 96, 102);
 G2L["e"]["Text"] = [[RemoteName]];
 
--- StarterGui.Lucious.Frame.Remotes.RemoteExample.border
+-- StarterGui.ASADA.Frame.Remotes.RemoteExample.border
 G2L["f"] = Instance.new("TextLabel", G2L["e"]);
 G2L["f"]["BorderSizePixel"] = 0;
 G2L["f"]["BackgroundColor3"] = Color3.fromRGB(253, 242, 81);
@@ -209,12 +209,12 @@ G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["f"]["Text"] = [[]];
 G2L["f"]["Name"] = [[border]];
 
--- StarterGui.Lucious.Frame.Remotes.UIListLayout
+-- StarterGui.ASADA.Frame.Remotes.UIListLayout
 G2L["10"] = Instance.new("UIListLayout", G2L["d"]);
 G2L["10"]["Padding"] = UDim.new(0, 7);
 G2L["10"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- StarterGui.Lucious.Frame.CodeSample
+-- StarterGui.ASADA.Frame.CodeSample
 G2L["11"] = Instance.new("TextBox", G2L["2"]);
 G2L["11"]["CursorPosition"] = -1;
 G2L["11"]["Interactable"] = false;
@@ -234,15 +234,15 @@ G2L["11"]["Position"] = UDim2.new(0.35784, 0, 0.06719, 0);
 G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["11"]["Text"] = [[]];
 
--- StarterGui.Lucious.Frame.Drag
+-- StarterGui.ASADA.Frame.Drag
 G2L["12"] = Instance.new("LocalScript", G2L["2"]);
 G2L["12"]["Name"] = [[Drag]];
 
--- StarterGui.Lucious.Frame.Main
+-- StarterGui.ASADA.Frame.Main
 G2L["13"] = Instance.new("LocalScript", G2L["2"]);
 G2L["13"]["Name"] = [[Main]];
 
--- StarterGui.Lucious.Frame.Drag
+-- StarterGui.ASADA.Frame.Drag
 local function C_12()
 local script = G2L["12"];
 	local frame = script.Parent
@@ -286,7 +286,7 @@ local script = G2L["12"];
 
 end;
 task.spawn(C_12);
--- StarterGui.Lucious.Frame.Main
+-- StarterGui.ASADA.Frame.Main
 local function C_13()
 local script = G2L["13"];
 	local TweenService = game:GetService("TweenService")
