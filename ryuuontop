@@ -4,7 +4,7 @@ _G.Code = ""
 
 -- StarterGui.Lucious
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
-G2L["1"]["Name"] = [[Lucious]];
+G2L["1"]["Name"] = [[ASADA]];
 G2L["1"]["ResetOnSpawn"] = false
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
